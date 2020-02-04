@@ -1,0 +1,57 @@
+#container { }
+
+#main-content { }
+
+#header {
+    text-align: center;
+    font-weight: bold;
+    color: deeppink;
+}
+
+#footer {
+    text-align: center;
+    line-height: .5em;
+    color: blue;
+}
+
+.right-note {
+    border: 1px solid blue;
+    width: 20%;
+    background-color: #65CDFF;
+
+    float: right;
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.first-letter {
+    color: red;
+    font-size: 2.0em;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.smallcaps {
+    font-variant: small-caps;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.strike {
+    text-decoration: line-through;
+}
