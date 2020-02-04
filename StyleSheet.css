@@ -5,19 +5,19 @@
 #header {
     text-align: center;
     font-weight: bold;
-    color: deeppink;
+    color: hsla(14, 100%, 53%, 0.6);
 }
 
 #footer {
     text-align: center;
     line-height: .5em;
-    color: blue;
+    color: hsla(14, 100%, 53%, 0.6);
 }
 
 .right-note {
     border: 1px solid blue;
     width: 20%;
-    background-color: #65CDFF;
+    background-color: hsla(14, 100%, 53%, 0.6);
 
     float: right;
     padding: 10px;
@@ -26,15 +26,10 @@
 }
 
 .first-letter {
-    color: red;
+    color: hsla(14, 100%, 53%, 0.6);
     font-size: 2.0em;
 }
 
-.error-message {
-    color: red;
-    font-weight: bold;
-    font-style: italic;
-}
 
 .smallcaps {
     font-variant: small-caps;

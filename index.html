@@ -2,7 +2,7 @@
 <html lang = "en">
 <head>
     <meta charset="utf-8">
-    <title>Sample CSS</title>
+    <title>All About Cheyao</title>
     <link rel="stylesheet" type="text/css" href="StyleSheet.css">
 </head>
 
@@ -13,13 +13,54 @@
         <div id="header">
             <h1> Welcome to Cheyao's Site</h1>
         </div> <!-- close the header div -->
+        <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        body {
+          margin: 0;
+          font-family: Arial, Helvetica, sans-serif;
+        }
 
+        .topnav {
+          overflow: hidden;
+          background-color: rgba(50, 115, 220, 0.3);
+        }
+
+        .topnav a {
+          float: left;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+        }
+
+        .topnav a:hover {
+          background-color: hsla(14, 100%, 53%, 0.6);
+          color: black;
+        }
+
+        .topnav a.active {
+          background-color: hsla(14, 100%, 53%, 0.6);
+          color: white;
+        }
+        </style>
+        </head>
+        <body>
+
+        <div class="topnav">
+          <a class="active" href="file:///Users/chiyaoguo/Desktop/HW2/index.html">Home</a>
+          <a href="https://www.instagram.com/cozyyao/?hl=zh-cn">Instagram</a>
+          <a href="file:///Users/chiyaoguo/Desktop/HW2/second.html">Personal Information</a>
+          <a href="https://www.linkedin.com/in/cheyao-guo-241b7817a/">LinkedIn</a>
+        </div>
+      </body>
         <div id="main-content">
-        
+
             <h1 class="smallcaps">My Story: </h1>
 
             <p>
-                <span class="first-letter">I</span>was born and raised in Wuhan, China. 
+                <span class="first-letter">I</span>was born and raised in Wuhan, China.
 I first came to U.S. when I was 11 years old, I went to middle school in Saginaw, Michigan.
 I remembered I was crying everyday and wishing I could go back to China because I didn't wanna leave my best friend.
 So I finished middle school and high school in China before I came to U.S. again. Right now I'm a senior studying Information Systems at University of Iowa.
@@ -38,13 +79,13 @@ I love to sing and dance, I studied traditional Chinese dance for six years in t
         * {
           box-sizing: border-box;
         }
-        
+
         .column {
           float: left;
           width: 33.33%;
           padding: 5px;
         }
-        
+
         /* Clearfix (clear floats) */
         .row::after {
           content: "";
@@ -74,14 +115,14 @@ I love to sing and dance, I studied traditional Chinese dance for six years in t
   <br><h2 class="smallcaps" style="font-size:25px;">Something Special: </h2>
 
 <p>
-
+<br>
 <span class="first-letter">M</span>y lovely hometown has a population over 11 million, but the city is under a lockdown as a result of the novel coronavirus outbreak.
 People cannot use public transportations anymore since the government shut them down, the N95 masks are sold out everywhere. I'm heart broken watching those patients being rejected by the hospitals because all the beds are occupied.
 Doctors are posting informations on Weibo and asking help from all the citizens to donate some medical masks, gloves,etc because they are out of these.
 It just so sad to see a beautiful city turned like this. The coronavirus has sickened more than 17300 people in China until Feb.3,2020, the number will only go up.
 The government are building two huge temporary hospitals in ten days that can accept over 2000 patients, people are raising money to buy medical supplies for hospitals. We are all trying our best to fight this disease, and I believe we will beat this virus.
-At this moment, I wish some newspaper journalists can stop creating panic and write something that are actually helping people be aware of this situation. 
-At last, pray for Wuhan!<br>
+At this moment, I wish some newspaper journalists can stop creating panic and write something that are actually helping people be aware of this situation.
+At last, pray for Wuhan!
 </p>
 </body>
 </html>
@@ -157,13 +198,6 @@ tr:nth-child(even) {
 <a href="https://github.com/chiyaooo">
   <img src="download2.jpg" style="width:42px;height:42px;border:0">
 </a>
-</body>
-</html>
-
-<html>
-<body>
-<p><a href="file:///Users/chiyaoguo/Desktop/HW2/second.html">My Information</a></p>
-
 
 </div> <!-- close the main-content div -->
 
